@@ -1,0 +1,1437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"li",
+				"lighten(color, 10%)"
+			],
+			[
+				"ff",
+				"ff-v	font-family: Verdana, Geneva, sans-serif;"
+			],
+			[
+				"article-",
+				"article-title"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"list-style-",
+				"list-style-position"
+			],
+			[
+				"liststyle",
+				"list-style-type"
+			],
+			[
+				"box-z",
+				"-moz-box-sizing:   (property)"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fff",
+				"F0F0F0"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"op:ms	-ms-filter:opacity"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"lis",
+				"list	list-style-type"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.tpl",
+			"settings":
+			{
+				"buffer_size": 6199,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fullstory.tpl",
+			"settings":
+			{
+				"buffer_size": 3597,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shortstory.tpl",
+			"settings":
+			{
+				"buffer_size": 3435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style/mstyle.css",
+			"settings":
+			{
+				"buffer_size": 8228,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "comments.tpl",
+			"settings":
+			{
+				"buffer_size": 2031,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/orating_pack.js",
+			"settings":
+			{
+				"buffer_size": 6570,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main-footer.tpl",
+			"settings":
+			{
+				"buffer_size": 1419,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "slider.tpl",
+			"settings":
+			{
+				"buffer_size": 3678,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wo",
+				"WordPress: Open Config File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"snip de",
+				"Snippet: desktop  laptop"
+			],
+			[
+				"sni mo",
+				"Snippet: smartphone"
+			],
+			[
+				"snipe",
+				"Snippet: :focus"
+			],
+			[
+				"snip",
+				"Snippet: ipad"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"clea",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ty",
+				"Tidy HTML"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"live",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"qi",
+				"Git: Quick Commit"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gut",
+				"Git: Quick Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"subl",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"colo",
+				"BracketHighlighter: Toggle Global Enable"
+			]
+		],
+		"width": 450.0
+	},
+	"console":
+	{
+		"height": 209.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/sftp-config.json",
+		"/C/OpenServer/domains/less.me/css/style.less",
+		"/D/Dropbox/Work/Verstka/markup-process-gh-pages/psd/design.psd",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/sftp-config.json",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services-subpage2.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services-subpage.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-contact.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-home.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/frontpage-header.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-about.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/footer.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/js/sitepress.js",
+		"/D/Dropbox/Work/Verstka/tancportal/bck/old-site/wp-content/themes/wp-tancportal/sftp-config.json",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/home.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/footer.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/category.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/js/scripts.js",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/page.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/sftp-config.json",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/sidebar.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/header.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/functions.php",
+		"/D/Dropbox/Work/Verstka/sitel.com/html/layout.css",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/tabs/description.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/product-thumbnails.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/product-image.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/content-single-product.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/single.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/css/admin.css",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/search.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/index_o.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/index.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/404.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/loop.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/category.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/js/scripts.js",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/page-home.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/sidebar-left.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/sidebar-right.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/footer.php",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/WordpressDev/WordPressDev.sublime-settings",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/index.html",
+		"/C/OpenServer/domains/shop.robotown.ru/phpshop/templates/saitobaza/index.html",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Gist/Gist.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Work/Verstka/robotown.ru/html/js/scripts.js",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/404.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/loop.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/pagination.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/index.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/footer.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/css/compressed.css",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/css/drugs_plugin.css",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/single.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/page.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/header.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/thumbnail.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/sidebar-light.php",
+		"/C/OpenServer/domains/academ-clinic.me/style.css",
+		"/C/OpenServer/domains/academ-clinic.me/index.html",
+		"/C/OpenServer/domains/academ-clinic.me/css/fancy_white.css",
+		"/C/OpenServer/domains/academ-clinic.me/css/calendar.css",
+		"/C/OpenServer/domains/academ-clinic.me/css/colorbox.css",
+		"/C/OpenServer/domains/adaptive.me/index.html",
+		"/C/OpenServer/domains/adaptive.me/style.css",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Automatic Backups/Automatic Backups.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/Distraction Free.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/CSS.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Git/Git.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Emmet/Emmet.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/CSSTidy/CSSTidy.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/CSScomb/CSScomb.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/404.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/single.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/index_o.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/loop.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/home.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/pagination.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/header.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/sidebar-colright.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/sidebar-colleft.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/footer.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/sftp-config.json",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/page.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/css/colorbox.css",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/includes/ticker-top.php",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/header.php",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/includes/home-slider.php",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/style.css",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/js/custom.js",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/sidebar-blogpost.php",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/sidebar-home.php",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/style.css.old",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/css/bootstrap.css",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/css/ie-google-webfont.css",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/css/font-awesome.min.css",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/css/tinyscrollbar.css",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/footer.php",
+		"/C/OpenServer/domains/madsport.me/wp-content/themes/sports/index.html",
+		"/D/Dropbox/Work/Verstka/buroa.ru/.marks/kutcher/sftp-config.json",
+		"/D/Dropbox/Work/Verstka/buroa.ru/.marks/wp-buroa-rebuild/sftp-config.json",
+		"/D/Dropbox/Work/Verstka/onlibank.ru/onlibank/favicon.ico",
+		"/D/Dropbox/Work/Verstka/onlibank.ru/onlibank/cards.php",
+		"/D/Dropbox/Work/Verstka/onlibank.ru/onlibank/index.php",
+		"/D/Dropbox/Work/Verstka/onlibank.ru/onlibank/single.php",
+		"/D/Dropbox/Work/Verstka/onlibank.ru/onlibank/header.php",
+		"/D/Dropbox/Work/Verstka/onlibank.ru/onlibank/sftp-config.json",
+		"/C/OpenServer/domains/samsung-games.com/wp-content/themes/wp-samsunggames/style.css",
+		"/C/OpenServer/domains/samsung-games.com/wp-content/themes/wp-samsunggames/page.php",
+		"/C/OpenServer/domains/samsung-games.com/wp-content/themes/wp-samsunggames/loop.php",
+		"/C/OpenServer/domains/samsung-games.com/wp-content/themes/wp-samsunggames/index_o.php",
+		"/C/OpenServer/domains/samsung-games.com/wp-content/themes/wp-samsunggames/header.php",
+		"/C/OpenServer/domains/samsung-games.com/wp-content/themes/wp-samsunggames/single.php",
+		"/D/Dropbox/Work/Verstka/onetoone-ripe/wp-onetoone/js/plugins.js",
+		"/D/Dropbox/Work/Verstka/onetoone-ripe/wp-onetoone/loop.php",
+		"/D/Dropbox/Work/Verstka/onetoone-ripe/wp-onetoone/sftp-config.json",
+		"/D/Dropbox/Work/Verstka/onetoone-ripe/wp-onetoone/404.php",
+		"/D/Dropbox/Work/Verstka/onetoone-ripe/wp-onetoone/category-press-clippings.php"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"slides",
+			"jque",
+			"onoentry",
+			"orating",
+			".breadcrumbs_top .breadcrumbs > span",
+			".breadcrumbs_top .breadcrumbs > span\\",
+			".breadcrumbs_top .breadcrumbs > span",
+			"home",
+			"wpeHeadNav",
+			".services-list",
+			".wpcf7-form-control-wrap.file-554",
+			".contact-bar .wpcf7-form-control-wrap",
+			"Montserrat",
+			"font-family: 'Montserrat', Verdana, sans-serif;",
+			"Montserrat",
+			"a:hover",
+			".cta .half",
+			"langua",
+			"#lang_sel_list a, #lang_sel_list a:visited",
+			"language",
+			"url",
+			"href=[^>]*",
+			"href=\"http://browsehappy.com/\"",
+			".mainfooter:after",
+			"sideba",
+			"header-slider",
+			"loope",
+			"home-text",
+			"logo",
+			"135",
+			"logo",
+			"980",
+			"style",
+			"url",
+			"../font/icomoon",
+			"url",
+			"../images",
+			"./index_files",
+			"src",
+			".home-text h4, .article-text .article-title",
+			".home-text h1",
+			"article-border",
+			"home-text",
+			"article",
+			"ar",
+			"article",
+			"searc",
+			"header",
+			"src=\"img",
+			"search",
+			"@",
+			"src=\"img",
+			"top-sales",
+			"carousell-sales-inner",
+			"carousell .carousell-sales-inner",
+			"carousell-sales-inner",
+			"carousell-topsales-inner",
+			"carousell-sales-inner",
+			"carousell-sales",
+			"carousell-sales-item",
+			"135",
+			"980",
+			"800",
+			"ad726-215",
+			"left",
+			"#FDEEBA",
+			"grey",
+			"cat-item",
+			"textarea",
+			".comments",
+			"comments",
+			"crp_related",
+			"crp_excerpt",
+			"related-posts",
+			"crp_excerpt",
+			"crp_title",
+			"crp_thumb",
+			"li1",
+			"to_add3.png",
+			"shadow.gif",
+			"additional",
+			"right",
+			"<!-- end CONTENT -->",
+			"</div><!-- end CONTENT -->",
+			"            </div><!-- end CONTENT -->",
+			"left",
+			"id=\"content\"",
+			"\"content",
+			"content",
+			"<div id=\"col_left\">",
+			"<aasa>",
+			"<a[^>]*href=[^>]*>(.*?)</a>",
+			"widget",
+			"sidebar-menu",
+			"wpeSideNav",
+			"wpeExcerpt20",
+			"announcement",
+			"widge",
+			"stats",
+			"header",
+			"loadin",
+			"src=\"ad",
+			"src=\"img",
+			"src=\"js",
+			"nosc",
+			"images/",
+			"logotip",
+			"part2",
+			"post4",
+			"Ya_sync_0",
+			"images/",
+			"url(",
+			"/ie6/",
+			"images",
+			"calendar",
+			")png",
+			")pngp",
+			"timthumb(14)pngp",
+			"images",
+			"#header .part2",
+			"beacon_7296842d8e",
+			"\n(adsbygoogle = window.adsbygoogle || []).push({});",
+			"google_osd_static_frame_6200224810745",
+			"png ",
+			"timthumb",
+			"phppnglt",
+			"hit",
+			"x90"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-family: 'PT Sans', sans-serif;",
+			"href=\"#\"",
+			"100",
+			"950",
+			"fonts",
+			"img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"phpshop/templates/saitobaza/img",
+			"carousell-inner",
+			"carousell-item",
+			"120",
+			"1200",
+			"rgba(253, 238, 186, 0.25)",
+			"#FDEEBA",
+			"</a>",
+			"<a href=\"\">\\1<aasa>",
+			"<a href=\"\">/1<a\\/>",
+			").png",
+			")png",
+			"png\" ",
+			"timthumb",
+			" ",
+			"h3",
+			"../img/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"img",
+			"img/",
+			"font-family: 'Open Sans', sans-serif;",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/photos",
+			"current-menu-item",
+			"",
+			"img",
+			"70",
+			"1000",
+			"<li>",
+			"showposts=12",
+			"page-template-page-jobs-php",
+			"http://mihas86.myjino.ru/wp-content/themes/wp-onetoone/img/",
+			"http://mihas86.myjino.ru/",
+			"140",
+			"1000",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img/",
+			"url('../img",
+			"url('img/",
+			"href=\"#\"",
+			"src=\"img",
+			"img",
+			"relative",
+			"  behavior: url(http://demo.saitobaza.ru/wp-content/themes/wp-clickprime/PIE/PIE.htc);",
+			"section",
+			"/PIE.htc",
+			"http://demo.saitobaza.ru/wp-content/themes/wp-clickprime/PIE.htc",
+			".section-main",
+			"400",
+			"515",
+			"115",
+			"175",
+			"href=\"#\"",
+			"320",
+			"<span class=\"article-info\"><span class=\"date\">10:26  23.02.2014</span>  Интервью  Богдан Тимин</span>",
+			"<h2><a href=\"\">Что случилось с Михаилом Рокфеллером</a></h2>",
+			"180",
+			"1000",
+			"253",
+			"MyriadProBoldCondensed",
+			"1000",
+			"",
+			"wpeasy",
+			"c"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.tpl",
+					"settings":
+					{
+						"buffer_size": 6199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fullstory.tpl",
+					"settings":
+					{
+						"buffer_size": 3597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								759,
+								759
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "shortstory.tpl",
+					"settings":
+					{
+						"buffer_size": 3435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2342,
+								2342
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1145.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style/mstyle.css",
+					"settings":
+					{
+						"buffer_size": 8228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8030,
+								8030
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6605.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "comments.tpl",
+					"settings":
+					{
+						"buffer_size": 2031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/orating_pack.js",
+					"settings":
+					{
+						"buffer_size": 6570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6410,
+								6410
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3689.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "main-footer.tpl",
+					"settings":
+					{
+						"buffer_size": 1419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1419,
+								1419
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "slider.tpl",
+					"settings":
+					{
+						"buffer_size": 3678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 183.0
+	},
+	"output.sftp":
+	{
+		"height": 149.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 172.0
+	},
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/wp-keeltekoolinterl.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true
+}

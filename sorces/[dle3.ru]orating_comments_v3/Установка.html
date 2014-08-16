@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Инструкция по установке модуля oRating-v3 by Sander [Comments Edition]</title>
+<style type="text/css">
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;text-decoration:none;border-spacing:1px;}
+
+body{background:#d6ded4;font:normal 12px Verdana,sans-serif;color:#222;}
+#wrapper{width:900px;margin:0 auto 20px;}
+
+.block{margin-top:10px;background:#c9d5cd;padding:10px 5px 0 10px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+	.block h2{padding:5px 0 15px 10px;font-weight:bold;}
+	.block textarea{border:1px solid #93a98f;background:#ebf1e6;width:98%;padding:4px 1%;margin:3px 0 7px -5px;height:76px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+	.block textarea:hover{border-color:#444;}
+	.block textarea:focus{border-color:#fff;box-shadow:0 1px 5px rgba(0,0,0,0.5);}
+
+textarea.onerow{height:16px;}
+textarea.tworow{height:32px;}
+
+ol{list-style:decimal inside;margin-top:15px;}
+	ol li{padding:0 0 7px 5px;}
+
+a{font:normal 12px CartoGothicStdBook,Arial,Helvetica,sans-serif;color:#ca2b63;text-decoration:underline;}
+a:hover{color:#12a0a9;}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+	<div class="block">
+		<h2>Установка модуля oRating-v3 by Sander [CE]</h2>
+		© 2008-2012 <a href="http://nfhelp.ru/">NFhelp.ru</a><br/>
+		Модуль рейтинга -+ с выводом проголосовавших в popup окне
+		<ol>
+			<li>Залить файл install.php на сервер и запустить его в браузере.</li>
+			<li>Залить папку engine к себе на сервер.</li>
+			<li>Для <b>DLE до 9.6</b> залить файл rating.php из папки "DLE до 9.6" в папку engine/ajax/</li>
+			<li>Залить содержимое папки THEME в папку с вашим шаблоном.</li>
+			<li>Открыть <b>main.tpl</b><br/>
+				Найти строку
+				<textarea class="onerow"></head></textarea>
+				ПЕРЕД ней вставить:
+				<textarea class="tworow"><script type="text/javascript" src="{THEME}/js/orating_pack.js"></script>
+<link media="screen" href="{THEME}/style/orating.css" type="text/css" rel="stylesheet" /></textarea>
+			</li>
+			<li>Открыть файлы:<br/>
+				<b>/engine/modules/show.custom.php</b><br/>
+				<b>/engine/modules/show.short.php</b><br/>
+				<b>/engine/modules/show.full.php</b><br/>
+				Найти строку:
+<textarea class="onerow">		$news_found = TRUE;</textarea>
+				После нее вставить:
+<textarea>		if( $row['allow_rate'] ){
+			$tpl->set( '{rate-val}', ($row['rating']>0)?"+".$row['rating']:$row['rating'] );
+			$tpl->set( '[rating]', "" );
+			$tpl->set( '[/rating]', "" );
+		} else $tpl->set_block( "'\\[rating\\](.*?)\\[/rating\\]'si", "" );</textarea>
+			</li>
+			<li>Открыть файлы:<br/>
+				<b>/engine/modules/show.full.php</b><br/>
+				<b>/engine/modules/lastcomments.php</b><br/>
+				Найти код:
+				<textarea class="onerow">"SELECT " . PREFIX . "_comments.id, post_id,</textarea>
+				Заменить на:
+				<textarea class="onerow">"SELECT " . PREFIX . "_comments.rating, " . PREFIX . "_comments.id, post_id,</textarea>
+			</li>
+
+			<li>Открыть файл <b>/engine/classes/comments.class.php</b>
+				Найти строку:
+				<textarea class="onerow">			$this->intern_count ++;</textarea>
+				После нее вставить:
+<textarea class="onerow">			$tpl->set( '{rating}', ($row['rating']>0)?"+".$row['rating']:intval($row['rating']) );</textarea>
+			</li>
+			<li>Открыть файл <b>/engine/modules/functions.php</b><br/>
+			Найти строку:
+			<textarea class="onerow">function userrating($id) {</textarea>
+			ПЕРЕД ней вставить:
+			<textarea>function user_orating($name) {
+	global $db;
+	$rating_p = $rating_c = 0;
+	$post_sql = $db->query( "SELECT (SELECT SUM(value) FROM ".PREFIX."_logs WHERE news_id=p.id) as rating FROM " . PREFIX . "_post p where autor ='$name'" );
+	while($row = $db->get_row($post_sql)) $rating_p += $row['rating'];
+	$comm_sql = $db->query( "SELECT (SELECT SUM(value) FROM ".PREFIX."_logs_comm WHERE comm_id=c.id) as rating FROM " . PREFIX . "_comments c where autor ='$name'" );
+	while($row = $db->get_row($comm_sql)) $rating_c += $row['rating'];
+	$rating = floor($rating_p*1) + floor($rating_c*0.3);
+	return $rating>0?"+".$rating:$rating;
+}</textarea>
+			</li>
+			<li>Открыть файл <b>/engine/modules/profile.php</b><br/>
+			Найти строку:
+			<textarea class="onerow">	$tpl->set( '{rate}', userrating( $row['user_id'] ) );</textarea>
+			В <b>DLE до 9.6</b> найти строку:
+			<textarea class="onerow">	$tpl->set( '{rate}', userrating( $row['name'] ) );</textarea>
+			Заменить на:
+			<textarea class="onerow">	$tpl->set( '{rate}', user_orating( $row['name'] ) );</textarea>
+			</li>
+			<li>Открыть файлы шаблона <b>fullstory.tpl</b> и <b>shortstory.tpl</b> в желаемом месте вставить:
+<textarea>[rating]<div class="orating" id="orating-{news-id}">
+	<a href="#" class="orating_m" title="Не нравится" onclick="orating({news-id},0);return false;"></a>
+	<a href="#" class="orating_p" title="Нравится" onclick="orating({news-id},1);return false;"></a>
+	<a href="#" class="orating_res" onclick="ostats({news-id},1,true);return false;">{rate-val}</a>
+</div>[/rating]</textarea>
+			</li>
+			<li>Открыть файлы шаблона <b>comments.tpl</b> в желаемом месте вставить:
+			<textarea><div class="ocomm" id="ocomm-{id}">
+	<a href="#" class="orating_m" title="Не нравится" onclick="ocomrate({id},0);return false;"></a>
+	<a href="#" class="orating_p" title="Нравится" onclick="ocomrate({id},1);return false;"></a>
+	<a href="#" class="ocomm_res" onclick="ocomstat({id},1,true);return false;">{rating}</a>
+</div></textarea></li>
+		</ol>
+	</div>
+	<div class="block">
+Чтобы обнулить значения старого пятизначного рейтинга, выполнить 2 запроса:
+<textarea class="tworow">update dle_post_extras set rating = 0, vote_num = 0;
+truncate table dle_logs</textarea>
+Для <b>DLE до 9.6</b>
+<textarea class="tworow">update dle_post set rating = 0, vote_num = 0;
+truncate table dle_logs</textarea>
+		
+	</div>
+</div>
+
+</body>
+</html>
